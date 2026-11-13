@@ -13,11 +13,11 @@ KDT 팀 프로젝트에서는 번호판 OCR의 실환경 오류를 분석하고 
 | 프로젝트 | 담당 내용과 결과 | 기술 |
 |---|---|---|
 | [CLOUDWASH — 차량번호판 OCR·세차장 운영 서비스](https://github.com/stonetiger95/kdt-teamproject-carwash) | 4인 팀의 팀장으로 OCR 데이터·모델 개발과 서비스 연동을 담당했습니다. 학습·튜닝과 분리한 실환경 번호판 Crop 1,000장에서 Lite050의 문자열 완전 일치 971건(97.1%)을 확인했습니다. | Python, PyTorch, FastAPI, Spring Boot, Vue, PostgreSQL |
-| [Olist — 이커머스 데이터 분석](https://github.com/stonetiger95/olist-analytics-portfolio#readme) | 브라질 Olist 공개 데이터를 활용한 분석 시리즈입니다. Project A에서 배송 완료 주문 96,470건의 지연율과 저평점의 연관성을 분석하고 운영 점검 우선순위를 제시했습니다. | PostgreSQL, SQL, Python, Tableau |
-| [Heart Failure Model Validation](https://github.com/stonetiger95/heart-failure-model-validation) | 심부전 임상자료에서 결과와 관련된 추적기간 변수를 제외하고 LDA·QDA·SVM·ANN을 동일한 반복 교차검증으로 비교했습니다. | R, repeated CV, ROC-AUC, sensitivity, specificity |
-| [NCI-60 Gene Expression Statistics](https://github.com/stonetiger95/nci60-gene-expression-statistics) | 5개 암종의 40개 세포주와 6,830개 유전자 발현 변수를 ANOVA·BH-FDR·PCA·군집분석으로 탐색했습니다. | R, BH-FDR, PCA, clustering, bootstrap, permutation |
-| [Face Impression Multivariate Analysis](https://github.com/stonetiger95/face-impression-multivariate-analysis) | 66개 얼굴 자극의 14개 인상 평정을 PCA·요인분석·군집분석으로 요약하고 방법별 잠재 구조를 비교했습니다. | R, PCA, PCFA, MLFA, clustering |
-| [Statistics Mini Analyses](https://github.com/stonetiger95/statistics-mini-analyses) | 주가 시계열, 반복검정 오류, 육상 기록의 공통 차원, 범주형 자료의 연관 구조를 분석한 네 가지 사례입니다. | R, ARIMA, multiple testing, PCA/FA, correspondence analysis |
+| [Olist — 이커머스 데이터 분석](https://github.com/stonetiger95/olist-analytics-portfolio#readme) | 유효 리뷰가 있는 주문에서 저평점 비율은 정시·조기 배송 9.25%, 지연 배송 62.36%였습니다. 주문량과 지연율을 함께 고려해 우선 점검할 지역을 제안했습니다. | PostgreSQL, SQL, Python, Tableau |
+| [Heart Failure Model Validation](https://github.com/stonetiger95/heart-failure-model-validation) | 심부전 임상자료에서 결과와 관련된 추적기간 변수를 제외하고 LDA·QDA·SVM·ANN을 동일한 반복 교차검증으로 비교했습니다. RBF SVM의 평균 ROC-AUC가 0.788로 가장 높았습니다. | R, repeated CV, ROC-AUC, sensitivity, specificity |
+| [NCI-60 Gene Expression Statistics](https://github.com/stonetiger95/nci60-gene-expression-statistics) | 5개 암종의 40개 세포주와 6,830개 유전자 발현 변수를 ANOVA·BH-FDR·PCA·군집분석으로 탐색했습니다. BH-FDR 보정 후 1,437개 변수가 q < 0.05를 충족했습니다. | R, BH-FDR, PCA, clustering, bootstrap, permutation |
+| [Face Impression Multivariate Analysis](https://github.com/stonetiger95/face-impression-multivariate-analysis) | 66개 얼굴 자극의 14개 인상 평정을 PCA·요인분석·군집분석으로 요약하고 방법별 잠재 구조를 비교했습니다. 첫 두 주성분의 누적 설명력은 82.5%였습니다. | R, PCA, PCFA, MLFA, clustering |
+| [Statistics Mini Analyses](https://github.com/stonetiger95/statistics-mini-analyses) | 주가 시계열, 반복검정 오류, 육상 기록의 공통 차원, 범주형 자료의 연관 구조를 분석한 네 가지 사례입니다. 반복검정 모의실험에서 BH 보정 후 평균 거짓발견비율은 0.466에서 0.046으로 줄었습니다. | R, ARIMA, multiple testing, PCA/FA, correspondence analysis |
 
 ## Skills
 
@@ -25,7 +25,7 @@ KDT 팀 프로젝트에서는 번호판 OCR의 실환경 오류를 분석하고 
 - 다변량·생물통계: PCA, factor analysis, clustering, classification, multiple testing
 - 서비스 연동: FastAPI, Java, Spring Boot, PostgreSQL, REST API, Vue.js
 - 컴퓨터 비전: PyTorch, YOLO, OCR
-- 학습 중: Tableau
+- 데이터 시각화: Tableau
 
 ## Repository Notes
 
